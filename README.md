@@ -1,4 +1,4 @@
-## Application that compares the content of two files
+## Application that compares the content of two files (it doesn't consider replacements)
 
 Main function accepts paths of two files and returns their differences
 
