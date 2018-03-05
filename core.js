@@ -97,8 +97,8 @@ const makeBuilder = (source, dist) => {
 
 const diff = (oldFileData, newFileData) => {
   const { oldResult: oldData, newResult: newData } = prepareData(oldFileData, newFileData);
-  const builder = makeBuilder(oldData, result);
   const result = [];
+  const builder = makeBuilder(oldData, result);
 
   if (newData.length === 0) {
     builder.pushDeleted({ pushAll: true });
